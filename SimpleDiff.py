@@ -7,11 +7,9 @@ root.withdraw()
 file_path_1 = filedialog.askopenfilename()
 file_path_2 = filedialog.askopenfilename()
 
-# Read files
 vid1 = VideoFileClip(file_path_1)
 vid2 = VideoFileClip(file_path_2)
 
-# Generate a text clip for both videos
 v1_txt_clip = TextClip(file_path_1, fontsize = 30, color = 'white') 
 v1_txt_clip = v1_txt_clip.set_pos('bottom', 'left').set_duration(10) 
 
