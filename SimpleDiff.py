@@ -10,6 +10,8 @@ file_path_2 = filedialog.askopenfilename()
 vid1 = VideoFileClip(file_path_1)
 vid2 = VideoFileClip(file_path_2)
 
+vid1 = vid1.margin(left=0, right=20, top=0, bottom=0)
+
 v1_txt_clip = TextClip(file_path_1, fontsize = 30, color = 'white') 
 v1_txt_clip = v1_txt_clip.set_pos('bottom', 'left').set_duration(10) 
 
