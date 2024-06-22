@@ -1,5 +1,5 @@
 # Project Overview
-Super simple script for comparing two videos side by side
+Very simple script for comparing two videos side by side and overlaying text over each.
 
 # Setup
 pip install moviepy
